@@ -54,11 +54,17 @@
                                 <!-- https://startbootstrap.com/solution/contact-forms-->
                                 <!-- to get an API token!-->
                                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                    <!-- Name input-->
+                                    <!-- First name input-->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">Full name</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                        <input class="form-control" id="fname" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                        <label for="fname">First name</label>
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">A first name is required.</div>
+                                    </div>
+                                    <!-- Last name input-->
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="lname" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                        <label for="lname">Last name</label>
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">A last name is required.</div>
                                     </div>
                                     <!-- Email address input-->
                                     <div class="form-floating mb-3">
